@@ -1,0 +1,16 @@
+﻿@model MVC_Demo.Models.Product
+
+<h2>Details</h2>
+<dl>
+    <dt>Product ID</dt>
+    <dd>@Model.ProductId</dd>
+    
+    <dt>Name</dt>
+    <dd>@Model.Name</dd>
+    
+    <dt>Price</dt>
+    <dd>@Model.Price</dd>
+
+</dl>
+<br/>
+@Html.ActionLink("Back To List", "List")
